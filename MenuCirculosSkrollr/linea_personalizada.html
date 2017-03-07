@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="svg_skrollr.css">
+
+	<title>Drawing a path</title>
+</head>
+
+<body>
+	<div id="skrollr-body">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500px" height="500px">
+		
+			<circle cx="50%" cy="50%" r="25%" style="stroke: black;" data-0="fill:rgb(137,36,12);" data-500="fill:rgb(0,0,128);" />
+			<text x="50%" y="50%" text-anchor="middle" stroke="white" font-size="30px"  dy="0.3em">Welcome</text>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="250px" height="250px" style="margin-left: 650px; margin-top:250px;">
+		
+			<circle cx="50%" cy="50%" r="25%" style="fill:rgb(15,111,185); stroke: white;" data-0="opacity:0;" data-500="opacity:1;" />
+			<text x="50%" y="50%" text-anchor="middle" stroke="white" font-size="30px"  dy="0.3em" data-0="opacity:0;" data-500="opacity:1;">About us</text>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="250px" height="250px" style="margin-left: 650px;">
+		
+			<circle cx="50%" cy="50%" r="25%" style="fill:rgb(15,111,185); stroke: white;" data-0="opacity:0;" data-500="opacity:1;" />
+			<text x="50%" y="50%" text-anchor="middle" stroke="white" font-size="30px"  dy="0.3em" data-0="opacity:0;" data-500="opacity:1;">Home</text>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="250px" height="250px">
+		
+			<circle cx="50%" cy="50%" r="25%" style="fill:rgb(15,111,185); stroke: white;" data-0="opacity:0;" data-500="opacity:1;" />
+			<text x="50%" y="50%" text-anchor="middle" stroke="white" font-size="30px"  dy="0.3em" data-0="opacity:0;" data-500="opacity:1;">Contact</text>
+		</svg>
+
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="250px" height="250px" style="margin-top: 250px;">
+		
+			<circle cx="50%" cy="50%" r="25%" style="fill:rgb(15,111,185); stroke: white;" data-0="opacity:0;" data-500="opacity:1;" />
+			<text x="50%" y="50%" text-anchor="middle" stroke="white" font-size="30px"  dy="0.3em" data-0="opacity:0;" data-500="opacity:1;">Projects</text>
+		</svg>
+		
+	</div>
+
+	<script type="text/javascript" src="dist/skrollr.min.js"></script>
+	<script type="text/javascript">
+	skrollr.init({
+		forceHeight: false
+	});
+	</script>
+</body>
+
+</html>

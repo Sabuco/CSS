@@ -1,0 +1,26 @@
+svg {
+    position: fixed;
+    margin-left: 400px;
+    
+}
+
+path {
+	fill:none;
+	stroke:#333333;
+	stroke-width:3;
+	stroke-linecap:round;
+	stroke-linejoin:miter;
+	stroke-miterlimit:4;
+	stroke-opacity:1;
+	stroke-dasharray:6000;
+	stroke-dashoffset:0 
+}
+
+div{
+	height: 1500px;
+	
+}
+
+body {
+	background-color: gray;
+}
