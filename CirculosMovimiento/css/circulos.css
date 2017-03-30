@@ -1,0 +1,49 @@
+html{
+
+	width: 100%;
+	height: 100%;
+	background-color: #474959;
+}
+
+#circulo {
+  height: 420px;
+  width: 420px;
+  border-radius: 100%;
+  border: dashed 2px #D9DCFF;
+  margin: auto;
+  animation: Movimiento 10s infinite linear;
+  
+}
+
+.subcirculo1 {
+
+  margin-top: 21%;
+  height: 240px;
+  width: 240px;
+  border-radius: 100%;
+  border: dashed 2px #B2A6A1;
+  margin-left:  21%;
+  animation: Movimiento 15s infinite linear;
+  
+}
+
+.subcirculo2 {
+
+  margin-top: 35%;
+  margin-left: 35%;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border: dashed 2px #A6BF99;
+  animation: Movimiento 18s infinite linear;
+  
+}
+@keyframes Movimiento{
+
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
